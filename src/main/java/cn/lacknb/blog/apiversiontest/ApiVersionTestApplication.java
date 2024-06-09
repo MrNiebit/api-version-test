@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @EnableImportApiVersion("cn.lacknb.blog.apiversiontest.service")
 public class ApiVersionTestApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ApiVersionTestApplication.class, args);
     }
-
 }
